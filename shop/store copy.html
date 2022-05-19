@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>iwantfun 萬芳智慧生活圈</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900" rel="stylesheet"/>
+<link rel="shortcut icon" href="../assets/images/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="192x192" href="../assets/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../assets/images/favicon/favicon-192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/favicon/favicon-192.png">
+<!-- Stylesheet -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/css/animate.min.css">
+<link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/icons/lineawesome/css/line-awesome.min.css">
+<link rel="stylesheet" href="../assets/vendors/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="../assets/vendors/slick/slick.css">
+<link rel="stylesheet" href="../assets/vendors/slick/slick-theme.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sidemenu.css">
+</head>
+<body class="body-gradient">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top"> <a class="navbar-brand mr-4" href="../index.html"><img src="../assets/images/logo.svg" class="d-inline-block align-middle" alt=""/></a>
+  <div class="nav-right d-flex flex-row order-2 order-xl-3">
+    <ul class="navbar-nav d-flex flex-row align-items-center">
+      <li class="nav-item"> <a href="#off-canvas" class="nav-link open-sidebar-s"><i class="las la-search mr-1"></i></a> </li>
+      <li class="nav-item"> <a href="../cart/index.html" class="nav-link"><i class="las la-shopping-cart mr-1"></i><span class="badge bg-red">6</span></a> </li>
+      <li class="nav-item"> <a class="nav-link open-sidebar-u" href="#off-canvas"><i class="las la-user-circle mr-1"></i></a> </li>
+    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+  </div>
+  <!-- end nav-right -->
+  
+  <div class="nav-main collapse navbar-collapse order-3 order-xl-2" id="navbarContent">
+    <ul class="navbar-nav d-lg-flex flex-lg-row text-left ml-1 mr-auto">
+      <li class="nav-item mr-3"> <a class="nav-link" href="../index.html"><i class="las la-home mr-1"></i>萬芳智慧生活圈</a> </li>
+      <li class="nav-item active mr-3"> <a class="nav-link" href="index.html"><i class="las la-store-alt mr-1"></i>好商圈</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../neighborhood/index.html"><i class="las la-user-friends mr-1"></i>好社區</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../health/index.html"><i class="las la-heartbeat mr-1"></i>好健康</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../security/index.html"><i class="las la-bullhorn mr-1"></i>好安全</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../education/index.html"><i class="las la-book-open mr-1"></i>好上進</a> </li>
+      <li class="nav-item mr-3 d-xl-none"> <a class="nav-link" href="../shop/tag.html"><i class="las la-hamburger mr-1"></i>點餐店家</a> </li>
+      <li class="nav-item mr-3 d-xl-none"> <a class="nav-link" href="../shop/tag.html"><i class="las la-book-open mr-1"></i>預約服務</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../wunshan/index.html"><i class="las la-gift mr-1"></i>文山好禮</a> </li>
+    </ul>
+    <!-- end nav-main -->
+  </div>
+  <!-- end navbar-collapse --> 
+</nav>
+<div id="wrapper" class="pl-0">
+  
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper" class="sidebar-scroll">
+    <ul class="sidebar-nav">
+      <li> <a href="store.html" class="active"><i class="las la-store"></i>商店首頁</a> </li>
+      <li> <a href="store-news.html"><i class="las la-bullhorn"></i>最新消息</a> </li>
+      <li> <a href="store-merchandise-list.html"><i class="las la-shopping-bag"></i>商品總覽</a>
+        <ul>
+          <li> <a href="store-merchandise-category.html"><i class="las la-minus"></i>商品分類</a> </li>
+          <li> <a href="store-merchandise-category.html"><i class="las la-minus"></i>商品分類</a> </li>
+          <li> <a href="store-merchandise-category.html"><i class="las la-minus"></i>商品分類</a> </li>
+        </ul>
+      </li>
+      <li> <a href="store-intro.html"><i class="las la-shopping-basket"></i>商店介紹</a></li>
+    </ul>
+  </div>
+  <!-- end sidebar-wrapper --> 
+  
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <a href="#menu-toggle" class="btn btn-outline-dark btn-sm mb-3" id="menu-toggle">商店選單</a>
+      <div class="card card-body mb-3 px-3 pt-4">
+        <div class="media">
+          <img src="../assets/images/demo/shop-logo.png" alt="" width="86" height="auto" class="mr-4">
+          <div class="media-body">
+            <div class="float-right">
+              <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+            </div>
+            <h3 class="tfs-20">Patio46 沛緹歐美式餐廳</h3>
+            <div class="mb-1">
+              <a href="category-2.html" class="mr-1"><span class="badge bg-green text-white p-1">中日式料理</span></a><a href="category-2.html" class="mr-1"><span class="badge bg-green text-white p-1">點⼼飲品</span></a>
+            </div>
+            <div class="stars text-orange">
+              <span class="tfs-13 mr-1">4.2</span><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><span class="tfs-13 ml-1 text-dark-6"><a href="https://www.google.com/maps/place/PATIO46+%E7%BE%8E%E5%BC%8F%E9%A4%90%E5%BB%B3/@24.9992409,121.556186,15.84z/data=!3m1!5s0x3442aa13b6fa9495:0x26ca618bb50fa4b2!4m7!3m6!1s0x0:0x742b8dc26fd85858!8m2!3d24.9993247!4d121.5557477!9m1!1b1?hl=zh-TW" target="_blank">(633)</a></span>
+            </div>
+            <!-- end stars -->
+          </div>
+        </div>
+        <!-- end media -->
+        <hr>
+        <div class="store-info">
+          <div class="row row-cols-xl-3 row-cols-sm-2 row-cols-1 tfs-13 px-2">
+            <div class="col mb-0">
+              <p class="mb-1"><span class="text-dark-6">地址：</span><a href="https://www.google.com/maps?ll=24.999325,121.555748&z=16&t=m&hl=zh-TW&gl=TW&mapclient=embed&cid=8370940198637819992" target="_blank">台北市文山區興隆路3段112巷4弄46號</a></p>
+              <p class="mb-1"><span class="text-dark-6">電話：</span><a href="tel:">02-8935-1146</a></p>
+              <p class="mb-1"><span class="text-dark-6">E-mail：</span><a href="mailto:acdc@rock.com">acdc@rock.com</a></p>
+              <p class="mb-1"><span class="text-dark-6">營業項目：</span>美式餐點</p>
+            </div>
+            <!--end col -->
+            <div class="col mb-xl-0 mb-3">
+              <p class="mb-1"><span class="text-dark-6">營業時間：</span></p>
+              <div class="mb-1 text-violet fw-500">
+                周一至周四 上午10:30 ~ 下午20:30<br>
+                周五 上午10:30 ~ 下午21:30<br>
+                周六 上午11:30 ~ 下午22:30
+              </div>
+              <p class="mb-1"><span class="text-dark-6">公休日：</span>星期日</p>
+              <p class="mb-1"><span class="text-dark-6">外送/取餐時間：</span><a href="#" class="btn btn-warning btn-sm btn-square py-0 px-1" data-toggle="modal" data-target="#Modal-time">點我</a></p>
+            </div>
+            <!--end col -->
+            <div class="col col-sm-12 mb-0">
+              <div class="tags">
+                <ul class="nav">
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">instafood </a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">yummy</a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">delicious</a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">foodlover</a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">chocolate</a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">dinner</a> </li>
+                  <li class="nav-item m-1"> <a href="tag.html" class="btn btn-outline-dark btn-sm btn-block">instadaily</a> </li>
+                </ul>
+              </div>
+            </div>
+            <!--end col -->
+          </div>
+          <!-- end row-cols -->
+        </div>
+        <!-- end store-info -->
+      </div>
+      <!-- end card -->
+      
+      <div class="alert alert-secondary tfs-13 mb-3" role="alert">
+        <a href="#" data-toggle="modal" data-target="#Modal-merchandise">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies felis ac erat molestie ullamcorper.</a>
+      </div>
+      
+      <!-- swiper-container -->
+      <div class="swiper-container banner mb-3">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-01.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-02.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-03.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-04.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-05.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-06.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-07.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-08.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-09.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-10.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-11.jpg" class="img-fluid" alt=""/></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="../assets/images/demo/banner-12.jpg" class="img-fluid" alt=""/></a>
+          </div>
+        </div>
+        <!-- pagination -->
+        <div class="swiper-pagination">
+        </div>
+        <!-- arrows -->
+        <div class="swiper-button-next">
+        </div>
+        <div class="swiper-button-prev">
+        </div>
+      </div>
+      <!-- end swiper-container -->
+      
+      <div class="card card-body mb-4">
+        <h4 class="mb-5">熱門商品</h4>
+        <div class="store-merchandise-list pt-3 px-3">
+          <div class="slick-merchandise-list mb-4">
+            <div class="card mb-4">
+              <a href="store-merchandise.html"><img src="../assets/images/demo/p-07.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="store-merchandise.html">商品以頁面呈現</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-08.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品以MODAL 呈現</a> </h6>
+                <div class="card-description mb-3">
+                  <!-- if n/a -->
+                  <div class="tfs-13 text-digest-60">
+                    ...
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-danger btn-sm" data-toggle="tooltip" data-placement="top" title="已加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-22.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-danger btn-sm" data-toggle="tooltip" data-placement="top" title="已加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-02.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-danger btn-sm" data-toggle="tooltip" data-placement="top" title="已加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-16.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-24.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-28.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-01.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card mb-4">
+              <a href="#" data-toggle="modal" data-target="#Modal-merchandise"><img src="../assets/images/demo/p-26.jpg" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h6 class="card-title tfs-14 mb-2"> <a href="#" data-toggle="modal" data-target="#Modal-merchandise">商品名稱</a> </h6>
+                <div class="card-description mb-3">
+                  <div class="tfs-13 text-digest-60">
+                    商品描述美式綜合口味、墨西哥及義大利食物為主，是萬芳區最久之異國口味餐廳。自由開放舒適，還可以聽到全球衛星廣播！
+                  </div>
+                </div>
+                <div class="float-right">
+                  <a href="#" class="btn btn-outline-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+                </div>
+                <div class="price text-orange">
+                  $159
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <!-- end slick-merchandise-list -->
+          <p class="text-right"><a href="store-merchandise-list.html" class="btn btn-outline-dark btn-sm">更多<i class="las la-angle-right ml-1 mr-0"></i></a></p>
+        </div>
+        <!-- merchandise-list -->
+        <hr>
+        <div class="google-store-review">
+          <h4 class="mb-3">商店評價</h4>
+          <div class="media tfs-13 mb-3">
+            <img src="../assets/images/user-default.png" alt="" width="48" height="48" class="mr-3">
+            <div class="media-body">
+              <p class="mb-0"><strong>林小明</strong></p>
+              <p class="mb-0">2021-06-30</p>
+              <div class="stars text-orange mb-0">
+                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star-half"></i>
+              </div>
+              <p>美式的部分在於店家環境、肉的原汁原味，其他麵包看起來頗台式。當天等了一點時間還沒上菜，店家主動說廚房出了一點問題，所以送上一碗湯，湯裡滿滿滿滿的⋯馬鈴薯⋯我不是很愛，但是湯算好喝。漢堡感覺像吃粗飽，沒有太多記憶點，吃到後來薯條感覺好撐。</p>
+              <!-- end stars -->
+            </div>
+          </div>
+          <!-- end media -->
+          <div class="media tfs-13 mb-3">
+            <img src="../assets/images/user-default.png" alt="" width="48" height="48" class="mr-3">
+            <div class="media-body">
+              <p class="mb-0"><strong>andy chen</strong></p>
+              <p class="mb-0">2021-06-30</p>
+              <div class="stars text-orange mb-0">
+                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star-half"></i>
+              </div>
+              <p>滿滿美式風格 唱片、電吉他還有許多英文車牌等裝飾 讓整間店看起來非常的【美國】 用餐背景音樂就是用英文電台的聲音 讓店內飄散著濃濃的異國氛圍 彷彿離開台灣似的</p>
+              <!-- end stars -->
+            </div>
+          </div>
+          <!-- end media -->
+          <div class="media tfs-13 mb-3">
+            <img src="../assets/images/user-default.png" alt="" width="48" height="48" class="mr-3">
+            <div class="media-body">
+              <p class="mb-0">LIN COCO</p>
+              <p class="mb-0">2021-06-30</p>
+              <div class="stars text-orange mb-0">
+                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star-half"></i>
+              </div>
+              <p>食物好吃，新鮮，價格實惠，2個人去點雞肉沙拉，牛奶炸雞跟1/3🐷肋排，1000元有找，文山區難得的美式餐廳</p>
+              <!-- end stars -->
+            </div>
+          </div>
+          <!-- end media -->
+          <div class="media tfs-13 mb-3">
+            <img src="../assets/images/user-default.png" alt="" width="48" height="48" class="mr-3">
+            <div class="media-body">
+              <p class="mb-0">陳大春</p>
+              <p class="mb-0">2021-06-30</p>
+              <div class="stars text-orange mb-0">
+                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star-half"></i>
+              </div>
+              <p>很好吃，吃了會一吃再吃的店，而且很容易吃很撐得出店門口!用餐環境舒服，很美式的裝潢、有兒童餐具、餐椅~服務員親葉、餐點好吃美味。</p>
+              <!-- end stars -->
+            </div>
+          </div>
+          <!-- end media -->
+          <div class="media tfs-13 mb-3">
+            <img src="../assets/images/user-default.png" alt="" width="48" height="48" class="mr-3">
+            <div class="media-body">
+              <p class="mb-0">JOHNNY HU</p>
+              <p class="mb-0">2021-06-30</p>
+              <div class="stars text-orange mb-0">
+                <i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star"></i><i class="las la-star-half"></i>
+              </div>
+              <p>美式的部分在於店家環境、肉的原汁原味，其他麵包看起來頗台式。當天等了一點時間還沒上菜，店家主動說廚房出了一點問題，所以送上一碗湯，湯裡滿滿滿滿的⋯馬鈴薯⋯我不是很愛，但是湯算好喝。漢堡感覺像吃粗飽，沒有太多記憶點，吃到後來薯條感覺好撐。</p>
+              <!-- end stars -->
+            </div>
+          </div>
+          <!-- end media -->
+          <p class="text-right"><a href="#" target="_blank" class="btn btn-outline-dark btn-sm">更多<i class="las la-angle-right ml-1 mr-0"></i></a></p>
+        </div>
+        <!-- end store-review -->
+        <hr>
+        <div class="store-news">
+          <h4 class="mb-3">最新消息</h4>
+          <div class="row mb-3">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+              <a href="store-news-page.html"><img src="../assets/images/demo/p-06.jpg" class="img-fluid" alt=""/></a>
+            </div>
+            <div class="col-xl-10 col-lg-9 col-md-8 col-sm-8">
+              <h6 class="mt-2"><a href="store-news-page.html">中午套餐只要 $159</a></h6>
+              <p class="tfs-12 mb-1">2021-06-15</p>
+              <p class="tfs-15 text-digest-80">美式的部分在於店家環境、肉的原汁原味，其他麵包看起來頗台式。當天等了一點時間還沒上菜，店家主動說廚房出了一點問題，所以送上一碗湯，湯裡滿滿滿滿的⋯馬鈴薯⋯我不是很愛，但是湯算好喝。漢堡感覺像吃粗飽，沒有太多記憶點，吃到後來薯條感覺好撐。</p>
+            </div>
+          </div>
+          <!-- end row -->
+          <div class="row mb-3">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+              <a href="store-news-page.html"><img src="../assets/images/demo/p-07.jpg" class="img-fluid" alt=""/></a>
+            </div>
+            <div class="col-xl-10 col-lg-9 col-md-8 col-sm-8">
+              <h6 class="mt-2"><a href="store-news-page.html">中午套餐只要 $159</a></h6>
+              <p class="tfs-12 mb-1">2021-06-15</p>
+              <p class="tfs-15 text-digest-80">美式的部分在於店家環境、肉的原汁原味，其他麵包看起來頗台式。當天等了一點時間還沒上菜，店家主動說廚房出了一點問題，所以送上一碗湯，湯裡滿滿滿滿的⋯馬鈴薯⋯我不是很愛，但是湯算好喝。漢堡感覺像吃粗飽，沒有太多記憶點，吃到後來薯條感覺好撐。</p>
+            </div>
+          </div>
+          <!-- end row -->
+          <div class="row mb-3">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
+              <a href="store-news-page.html"><img src="../assets/images/demo/p-09.jpg" class="img-fluid" alt=""/></a>
+            </div>
+            <div class="col-xl-10 col-lg-9 col-md-8 col-sm-8">
+              <h6 class="mt-2"><a href="store-news-page.html">中午套餐只要 $159</a></h6>
+              <p class="tfs-12 mb-1">2021-06-15</p>
+              <p class="tfs-15 text-digest-80">美式的部分在於店家環境、肉的原汁原味，其他麵包看起來頗台式。當天等了一點時間還沒上菜，店家主動說廚房出了一點問題，所以送上一碗湯，湯裡滿滿滿滿的⋯馬鈴薯⋯我不是很愛，但是湯算好喝。漢堡感覺像吃粗飽，沒有太多記憶點，吃到後來薯條感覺好撐。</p>
+            </div>
+          </div>
+          <!-- end row -->
+          <p class="text-right"><a href="store-news.html" class="btn btn-outline-dark btn-sm">更多<i class="las la-angle-right ml-1 mr-0"></i></a></p>
+        </div>
+        <!-- end news -->
+        <hr>
+        <div class="store-intro tfs-15 pt-4">
+          <h4 class="mb-3">商店介紹</h4>
+          <div class="mb-3">
+            <a href="#" class="mr-2" target="_blank" data-toggle="tooltip" data-placement="top" title="官方網站"><i class="las la-globe la-2x"></i></a><a href="https://www.facebook.com/Patio-46-%E6%B2%9B%E7%B7%B9%E6%AD%90%E7%BE%8E%E5%BC%8F%E9%A4%90%E5%BB%B3-1937753579629287/" class="mr-2" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="lab la-facebook la-2x"></i></a><a href="#" class="mr-2" target="_blank" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="lab la-instagram la-2x"></i></a><a href="#" class="mr-2" target="_blank" data-toggle="tooltip" data-placement="top" title="Line"><i class="lab la-line la-2x"></i></a>
+          </div>
+          <div class="store-description mb-5">
+            <p>Patio46沛緹歐是由國賓飯店/麥當勞/smith&wollesky牛排館/的行政創意主廚- Cale Jackson領導的團隊，提供正宗的美式口味～以及口袋私房創意料理。</p>
+            <p>20幾種多口味比薩 義大利麵 炸雞烤雞 蛋糕甜點 盡情享用，另有多種排餐選擇喔～</p>
+          </div>
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8212.031737455694!2d121.55626283633046!3d24.999175772565962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x742b8dc26fd85858!2zUEFUSU80NiDnvo7lvI_ppJDlu7M!5e0!3m2!1szh-TW!2stw!4v1619166070529!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <!-- end embed-responsive -->
+        </div>
+        <!-- contact-list -->
+      </div>
+      <!-- end card -->
+      
+      <footer class="footer">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <p class="mb-1"><a href="../privacy/index.html">隱私權政策</a> 與 <a href="../privacy/index.html">使⽤者條款</a></p>
+            <p class="m-0">&copy; 2021 iwantfun. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+      
+    </div>
+    <!-- end container -->
+    
+  </div>
+  <!-- end page-content-wrapper -->
+  
+</div>
+<!-- end wrapper --> 
+
+<!-- go top --> 
+<a href="#" class="go-top"><i class="la la-arrow-up"></i></a> 
+<!-- end go top -->  
+
+<!-- offcanvas sidebar user -->
+<div class="off-sidebar user from-right">
+  <div class="off-sidebar-container">
+    <div class="off-sidebar-content tfs-13 offcanvas-scroll auto-scroll"> <a href="#off-canvas" class="off-sidebar-close"></a>
+      <div class="sidebar-heading text-center"> <i class="las la-user-circle mr-2"></i>User Name </div>
+      <div> <a href="../user/index.html"><i class="las la-user-circle mr-2"></i>帳戶總覽</a> </div>
+      <hr>
+      <div> <a href="../user/account.html"><i class="las la-id-card mr-2"></i>會員資訊</a> </div>
+      <hr>
+      <div> <a href="../user/purchase.html"><i class="las la-shopping-bag mr-2"></i>訂購紀錄</a> </div>
+      <hr>
+      <div> <a href="../user/coupon-list.html"><i class="las la-ticket-alt mr-2"></i>優惠券</a> </div>
+      <hr>
+      <div> <a href="../user/receiver.html"><i class="las la-box mr-2"></i>常用取貨人</a> </div>
+      <hr>
+      <div> <a href="../user/favorite.html"><i class="las la-kiss-wink-heart mr-2"></i>我的收藏</a> </div>
+      <hr>
+      <div> <a href="../user/notification.html"><i class="las la-bell mr-2"></i>推播訊息</a> </div>
+      <hr>
+      <div> <a href="../user/change-password.html"><i class="las la-lock mr-2"></i>更改密碼</a> </div>
+      <hr>
+      <div> <a href="../index.html"><i class="las la-sign-out-alt mr-2"></i>登出</a> </div>
+    </div>
+  </div>
+</div>
+<!-- end offcanvas sidebar user --> 
+    
+<!-- offcanvas sidebar search -->
+<div class="off-sidebar search from-right">
+  <div class="off-sidebar-container">
+    <div class="off-sidebar-content offcanvas-scroll auto-scroll">
+      <a href="#off-canvas" class="off-sidebar-close"></a>
+      <div class="sidebar-heading text-center">
+        <i class="las la-search"></i>
+      </div>
+      <div class="form-group mb-1">
+        <select class="form-control form-control-sm">
+          <option>商品</option>
+          <option>商店</option>
+          <option>文章</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="search" class="form-control form-control-sm" placeholder="關鍵字">
+      </div>
+      <a href="../search-results.html" class="btn btn-info btn-square btn-block btn-sm shadow">搜尋</a>
+      <hr>
+      <p class="mb-2 tfs-13">熱門搜尋：</p>
+      <div class="tags">
+        <ul class="nav">
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">珍珠奶茶 </a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">牛排</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">牛肉番茄蛋炒飯</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">多多綠</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">超香鹽酥雞</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">綠草原餐廳</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">美式速食</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end offcanvas sidebar search -->   
+
+<!-- Modal-merchandise -->
+<div class="modal fade" id="Modal-merchandise" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body tfs-13">
+        <div class="row">
+          <div class="col-lg-6 mb-3">
+            <img src="../assets/images/demo/p-06.jpg" class="img-fluid" alt=""/>
+          </div>
+          <div class="col-lg-6 mb-3">
+            <h3 class="tfs-20 mb-2">阿嬤牛奶炸雞 Buttermilk Fried Chicken</h3>
+            <!--description-->
+            <p class="mb-2"> 附薯條, 季節水果及飲料或濃湯。 Served with french fries, seasonal fruits, and drinks or chowder. </p>
+            <!--favorite-->
+            <div class="mb-2">
+              <a href="#" class="btn btn-outline-secondary btn-sm mr-2" data-toggle="tooltip" data-placement="top" title="加入我的最愛"><i class="las la-heart m-0"></i></a>
+            </div>
+            <!--price-->
+            <div class="tfs-24 text-orange mb-2">
+              <strong>$299</strong><span class="tfs-13 text-gray ml-2"><del>$399</del></span>
+            </div>
+            <!--spec-->
+            <div class="mb-2">
+              <ul class="nav">
+                <!--active 表示選擇了項目-->
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-dark btn-sm btn-square active">大</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-dark btn-sm btn-square">中</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-dark btn-sm btn-square">小</a> </li>
+              </ul>
+            </div>
+            <!--spec2-->
+            <div class="mb-2">
+              <p class="mb-0">甜度</p>
+              <ul class="nav">
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">正常</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">半糖</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">微糖</a> </li>
+              </ul>
+            </div>
+            <div class="mb-2">
+              <p class="mb-0">冰塊</p>
+              <ul class="nav">
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">正常</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">少冰</a> </li>
+                <li class="nav-item m-1"> <a href="#" class="btn btn-outline-warning btn-sm btn-square">去冰</a> </li>
+              </ul>
+            </div>
+            <!--quantity-->
+            <div class="form-inline mb-3">
+              <select class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <!--order time-->
+            <p class="mb-1"> <i class="las la-clock mr-1"></i>可預約點餐時間：送餐前30分鐘 </p>
+            <!--deliver time-->
+            <p class="mb-1"> <i class="las la-motorcycle mr-1"></i>可送餐時段：<a href="#" class="btn btn-warning btn-sm btn-square py-0 px-1" data-toggle="modal" data-target="#Modal-time2">點我</a> </p>
+            <p class="mt-3 mb-0"> <a href="#" class="btn btn-info shadow" data-toggle="modal" data-target="#Modal-cart">加入購物車</a> </p>
+          </div>
+        </div>
+        <!-- end row -->
+        <hr>
+        <h5>加購商品</h5>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+          <div class="col mb-3 px-2">
+            <div class="card h-100">
+              <img src="../assets/images/demo/p-14.jpg" class="card-img-top" alt="">
+              <div class="card-body p-3">
+                <h6 class="tfs-13 mb-2"> 美式咖啡(冰) </h6>
+                <p class="mb-2">加購價：<span class="mr-2">大 50</span><span class="mr-2">中 40</span><span>小 30</span></p>
+                <div class="form-inline mb-3">
+                  <select class="form-control form-control-sm mr-1">
+                    <option>規格</option>
+                    <option>大</option>
+                    <option>中</option>
+                    <option>小</option>
+                  </select>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label tfs-13 text-info">加購</label>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <div class="col mb-3 px-2">
+            <div class="card h-100">
+              <img src="../assets/images/demo/p-26.jpg" class="card-img-top" alt="">
+              <div class="card-body p-3">
+                <h6 class="tfs-13 mb-2"> 比利時巧克力一盒 </h6>
+                <p class="mb-2">加購價：<span class="mr-2">大盒 120</span><span>小盒 90</span></p>
+                <div class="form-inline mb-3">
+                  <select class="form-control form-control-sm mr-1">
+                    <option>規格</option>
+                    <option>大盒</option>
+                    <option>小盒</option>
+                  </select>
+                </div>
+                <div class="form-check align-items-center">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label tfs-13 text-info">加購</label>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <div class="col mb-3 px-2">
+            <div class="card h-100">
+              <img src="../assets/images/demo/p-24.jpg" class="card-img-top" alt="">
+              <div class="card-body p-3">
+                <h6 class="tfs-13 mb-2"> 草莓小蛋糕 </h6>
+                <p class="mb-2">加購價：60</p>
+                <p class="mb-0 text-red">已售完</p>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <div class="col mb-3 px-2">
+            <div class="card h-100">
+              <img src="../assets/images/demo/p-18.jpg" class="card-img-top" alt="">
+              <div class="card-body p-3">
+                <h6 class="tfs-13 mb-2"> 餐前奶油小圓麵包 </h6>
+                <p class="mb-2">加購價：40</p>
+                <div class="form-check align-items-center">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label tfs-13 text-info">加購</label>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <div class="col mb-3 px-2">
+            <div class="card h-100">
+              <img src="../assets/images/demo/p-11.jpg" class="card-img-top" alt="">
+              <div class="card-body p-3">
+                <h6 class="tfs-13 mb-2"> 天然現榨檸檬汁 300ml </h6>
+                <p class="mb-2">加購價：30</p>
+                <div class="form-check align-items-center">
+                  <input class="form-check-input" type="checkbox">
+                  <label class="form-check-label tfs-13 text-info">加購</label>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+        </div>
+        <!-- end row-cols -->
+        <p class="m-0 text-center">
+          <button type="button" class="btn btn-outline-secondary btn-sm" data-dismiss="modal"><i class="las la-times"></i></button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Modal-merchandise --> 
+
+<!-- Modal-cart -->
+<div class="modal fade" id="Modal-cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm shadow">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <p class="mb-4">本商品已加入購物車</p>
+        <p class="mb-0"> <a href="../cart/index.html" class="btn btn-danger btn-sm mr-2">查看購物車</a>
+          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">確認</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Modal-cart --> 
+    
+<!-- Modal-time -->
+<div class="modal fade" id="Modal-time" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog shadow">
+    <div class="modal-content">
+      <div class="modal-body p-4 tfs-15">
+        <p class="mb-1"><span class="text-dark-6">外送時間：</span>N/A</p>
+        <!-- 若無，如上顯示N/A，有則顯示下列ul -->
+        <ul class="tfs-13 text-violet fw-500 pl-4">
+          <li>星期一：11:30 - 20:00</li>
+          <li>星期二：11:30 - 20:00</li>
+          <li>星期三：11:30 - 20:00</li>
+          <li>星期四：11:30 - 20:00</li>
+          <li>星期五：11:30 - 20:00</li>
+          <li>星期六：11:30 - 20:00</li>
+        </ul>
+        <p class="mb-1"><span class="text-dark-6">取餐時間：</span>N/A</p>
+        <!-- 若無，如上顯示N/A，有則顯示下列ul -->
+        <ul class="tfs-13 text-violet fw-500 pl-4">
+          <li>星期一：11:30 - 20:00</li>
+          <li>星期二：11:30 - 20:00</li>
+          <li>星期三：11:30 - 20:00</li>
+          <li>星期四：11:30 - 20:00</li>
+          <li>星期五：11:30 - 20:00</li>
+          <li>星期六：11:30 - 20:00</li>
+        </ul>
+        <hr>
+        <p class="text-center mb-0">
+          <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">知道了</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Modal-time -->     
+
+<!-- javascript --> 
+<script src="../assets/js/jquery-3.5.1.min.js"></script> 
+<script src="../assets/js/bootstrap.bundle.min.js"></script> 
+<script src="../assets/vendors/swiper/swiper-bundle.js"></script> 
+<script src="../assets/vendors/nicescroll/nicescroll.min.js"></script> 
+<script src="../assets/vendors/slick/slick.min.js"></script> 
+<script src="../assets/js/wow.js"></script> 
+<script src="../assets/js/text-digest.js"></script> 
+<script src="../assets/js/swiper.js"></script> 
+<script src="../assets/js/slick.js"></script> 
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>iwantfun 萬芳智慧生活圈</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900" rel="stylesheet"/>
+<link rel="shortcut icon" href="../assets/images/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="192x192" href="../assets/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../assets/images/favicon/favicon-192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/favicon/favicon-192.png">
+<!-- Stylesheet -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/css/animate.min.css">
+<link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/icons/lineawesome/css/line-awesome.min.css">
+<link rel="stylesheet" href="../assets/vendors/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="body-gradient">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top"> 
+  <!-- search box-->
+  <div class="search-box">
+    <button class="dismiss"><i class="las la-times"></i></button>
+    <form id="searchForm" action="#" role="search">
+      <input type="search" placeholder="搜尋" class="form-control">
+    </form>
+  </div>
+  <!-- end search box--> 
+  
+  <a class="navbar-brand mr-4" href="../index.html"><img src="../assets/images/logo.svg" class="d-inline-block align-middle" alt=""/></a>
+  <div class="nav-right d-flex flex-row order-2 order-xl-3">
+    <ul class="navbar-nav d-flex flex-row align-items-center">
+      <li class="nav-item"> <a href="#" class="nav-link search" id="search"><i class="las la-search mr-1"></i></a> </li>
+      <li class="nav-item"> <a href="../cart/index.html" class="nav-link"><i class="las la-shopping-cart mr-1"></i><span class="badge bg-red">6</span></a> </li>
+      <li class="nav-item"> <a class="nav-link open-sidebar" href="#off-canvas"><i class="las la-user-circle mr-1"></i></a> </li>
+    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+  </div>
+  <!-- end nav-right -->
+  
+  <div class="nav-main collapse navbar-collapse order-3 order-xl-2" id="navbarContent">
+    <ul class="navbar-nav d-lg-flex flex-lg-row text-left ml-1 mr-auto">
+      <li class="nav-item active mr-3"> <a class="nav-link" href="../index.html"><i class="las la-home mr-1"></i>萬芳智慧生活圈</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../shop/index.html"><i class="las la-store-alt mr-1"></i>好商圈</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../neighborhood/index.html"><i class="las la-user-friends mr-1"></i>好社區</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../health/index.html"><i class="las la-heartbeat mr-1"></i>好健康</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../security/index.html"><i class="las la-bullhorn mr-1"></i>好安全</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../education/index.html"><i class="las la-book-open mr-1"></i>好上進</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../wunshan/index.html"><i class="las la-gift mr-1"></i>文山好禮</a> </li>
+    </ul>
+    <!-- end nav-main -->
+  </div>
+  <!-- end navbar-collapse --> 
+</nav>
+<div class="container">
+  <h3 class="page-title text-center mb-4">聯絡我們</h3>
+  <div class="card card-body tfs-13 mb-4 shadow">
+    <div class="form-group mb-3">
+      <label>種類 *</label>
+      <select class="form-control">
+        <option>會員問題</option>
+        <option>訂單問題</option>
+        <option>合作洽詢</option>
+        <option>其他項目</option>
+      </select>
+    </div>
+    <div class="form-group mb-3">
+      <label>聯絡人 *</label>
+      <input type="text" class="form-control form-control-sm">
+    </div>
+    <div class="form-group mb-3">
+      <label>電話 *</label>
+      <input type="text" class="form-control form-control-sm">
+    </div>
+    <div class="form-group mb-3">
+      <label>電子郵件 *</label>
+      <input type="text" class="form-control form-control-sm">
+    </div>
+    <div class="form-group mb-3">
+      <label>聯絡主旨 *</label>
+      <input type="text" class="form-control form-control-sm">
+    </div>
+    <div class="form-group mb-3">
+      <label>聯絡內容 *</label>
+      <textarea class="form-control" rows="8"></textarea>
+    </div>
+    <div class="form-group mb-3">
+      <label>上傳附件</label>
+      <input type="file" class="form-control-file">
+    </div>
+    <p class="text-center mt-2 mb-2"><a href="#" class="btn btn-outline-info shadow" data-toggle="modal" data-target="#Modal-send">送出</a></p>
+  </div>
+  <!-- end card -->
+</div>
+<!-- end container -->
+
+<footer class="footer footer-alt">
+  <div class="container my-auto">
+    <div class="row col-lg-7 mx-auto mb-3 justify-content-center tfs-13 fw-500">
+      <div class="col-auto">
+        <a href="https://www.facebook.com/icutewf" target="_blank"><i class="lab la-facebook mr-1"></i>Facebook</a>
+      </div>
+      <div class="col-auto">
+        <a href="https://www.instagram.com/cuteusr/" target="_blank"><i class="lab la-instagram mr-1"></i>Instagram</a>
+      </div>
+      <div class="col-auto">
+        <a href="../news/index.html"><i class="las la-bullhorn mr-1"></i>最新消息</a>
+      </div>
+      <div class="col-auto">
+        <a href="index.html"><i class="las la-comment mr-1"></i>聯絡我們</a>
+      </div>
+      <div class="col-auto">
+        <a href="../member/signin-b.html"><i class="las la-store mr-1"></i>商家管理</a>
+      </div>
+    </div>
+    <div class="copyright text-center my-auto">
+      <p class="mb-1"><a href="../privacy/index.html">隱私權政策</a> 與 <a href="../privacy/index.html">使⽤者條款</a></p>
+      <p class="m-0">&copy; 2021 iwantfun. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- end footer --> 
+
+<!-- go top --> 
+<a href="#" class="go-top"><i class="la la-arrow-up"></i></a> 
+<!-- end go top --> 
+
+<!-- offcanvas sidebar user -->
+<div class="off-sidebar from-right">
+  <div class="off-sidebar-container">
+    <div class="off-sidebar-content tfs-13 offcanvas-scroll auto-scroll">
+      <a href="#off-canvas" class="off-sidebar-close"></a>
+      <div class="sidebar-heading text-center">
+        <i class="las la-user-circle mr-2"></i>User Name
+      </div>
+      <div>
+        <a href="../user/index.html"><i class="las la-user-circle mr-2"></i>帳戶總覽</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/account.html"><i class="las la-id-card mr-2"></i>會員資訊</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/purchase.html"><i class="las la-shopping-bag mr-2"></i>訂購紀錄</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/coupon-list.html"><i class="las la-ticket-alt mr-2"></i>優惠券</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/receiver.html"><i class="las la-box mr-2"></i>常用取貨人</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/favorite.html"><i class="las la-kiss-wink-heart mr-2"></i>我的收藏</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/notification.html"><i class="las la-bell mr-2"></i>推播訊息</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../user/change-password.html"><i class="las la-lock mr-2"></i>更改密碼</a>
+      </div>
+      <hr>
+      <div>
+        <a href="../index.html"><i class="las la-sign-out-alt mr-2"></i>登出</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end offcanvas sidebar user --> 
+
+<!-- Modal send -->
+<div class="modal fade" id="Modal-send" tabindex="-1">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content text-center">
+      <div class="modal-body p-4">
+        <p class="text-orange mb-2"><i class="las la-check la-2x"></i></p>
+        <p class="mb-2">聯絡內容已送出！</p>
+        <p class="tfs-13">感謝您，我們會盡速檢視您的聯絡內容而後進行相關處理與回覆</p>
+        <p class="m-0">
+          <button type="button" class="btn btn-outline-info btn-sm" data-dismiss="modal">確認</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal-send --> 
+
+<!-- javascript --> 
+<script src="../assets/js/jquery-3.5.1.min.js"></script> 
+<script src="../assets/js/bootstrap.bundle.min.js"></script> 
+<script src="../assets/vendors/nicescroll/nicescroll.min.js"></script> 
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

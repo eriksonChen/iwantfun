@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>iwantfun 萬芳智慧生活圈</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900" rel="stylesheet"/>
+<link rel="shortcut icon" href="../assets/images/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="192x192" href="../assets/images/favicon/favicon-192.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../assets/images/favicon/favicon-192.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="assets/images/favicon/favicon-192.png">
+<!-- Stylesheet -->
+<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/icons/lineawesome/css/line-awesome.min.css">
+<link rel="stylesheet" href="../assets/vendors/summernote/summernote.min.css">
+<link rel="stylesheet" href="../assets/vendors/tempusdominus/tempusdominus.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/sidemenu.css">
+</head>
+<body class="body-gradient">
+<nav class="navbar navbar-expand-xl navbar-light fixed-top"> 
+  <a class="navbar-brand mr-4" href="../index.html"><img src="../assets/images/logo.svg" class="d-inline-block align-middle" alt=""/></a>
+  <div class="nav-right d-flex flex-row order-2 order-xl-3">
+    <ul class="navbar-nav d-flex flex-row align-items-center">
+      <li class="nav-item"> <a href="#off-canvas" class="nav-link open-sidebar-s"><i class="las la-search mr-1"></i></a> </li>
+      <li class="nav-item"> <a href="../cart/index.html" class="nav-link"><i class="las la-shopping-cart mr-1"></i><span class="badge bg-red">6</span></a> </li>
+      <li class="nav-item"> <a class="nav-link open-sidebar-u" href="#off-canvas"><i class="las la-user-circle mr-1"></i></a> </li>
+    </ul>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span> </button>
+  </div>
+  <!-- end nav-right -->
+  
+  <div class="nav-main collapse navbar-collapse order-3 order-xl-2" id="navbarContent">
+    <ul class="navbar-nav d-lg-flex flex-lg-row text-left ml-1 mr-auto">
+      <li class="nav-item mr-3"> <a class="nav-link" href="../index.html"><i class="las la-home mr-1"></i>萬芳智慧生活圈</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../shop/index.html"><i class="las la-store-alt mr-1"></i>好商圈</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../neighborhood/index.html"><i class="las la-user-friends mr-1"></i>好社區</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../health/index.html"><i class="las la-heartbeat mr-1"></i>好健康</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../security/index.html"><i class="las la-bullhorn mr-1"></i>好安全</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../education/index.html"><i class="las la-book-open mr-1"></i>好上進</a> </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="../wunshan/index.html"><i class="las la-gift mr-1"></i>文山好禮</a> </li>
+    </ul>
+    <!-- end nav-main --> 
+  </div>
+  <!-- end navbar-collapse --> 
+</nav>
+<div id="wrapper"> 
+  
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper" class="sidebar-scroll">
+    <ul class="sidebar-nav">
+      <li> <a href="index.html" class="active"><i class="las la-user-circle"></i>帳戶總覽</a> </li>
+      <li> <a href="account.html"><i class="las la-id-card"></i>會員資訊</a> </li>
+      <li> <a href="purchase.html"><i class="las la-shopping-bag"></i>訂購記錄</a> </li>
+      <li> <a href="coupon-list.html"><i class="las la-ticket-alt"></i>優惠券</a> </li>
+      <li> <a href="receiver.html"><i class="las la-box"></i>常用取貨人</a> </li>
+      <li> <a href="favorite.html"><i class="las la-kiss-wink-heart"></i>我的收藏</a> </li>
+      <li> <a href="notification.html"><i class="las la-bell"></i>推播訊息</a> </li>
+      <li> <a href="change-password.html"><i class="las la-lock"></i>更改密碼</a> </li>
+      <li> <a href="../index.html"><i class="las la-sign-out-alt"></i>登出</a> </li>
+      <hr>
+      <li> <a href="../admin/index.html" class="btn btn-danger pl-0 mb-2 mx-3 shadow"><i class="las la-cog"></i>系統管理</a> </li>
+      <li> <a href="../shop-admin/index.html" class="btn btn-danger pl-0 mb-2 mx-3 shadow"><i class="las la-store"></i>商家管理</a> </li>
+    </ul>
+  </div>
+  <!-- end sidebar-wrapper --> 
+  
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid"> <a href="#menu-toggle" class="btn btn-outline-dark btn-sm mb-3" id="menu-toggle">會員選單</a>
+      <div class="row mb-4">
+        <div class="col-md-6 mb-md-0 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-header tfs-15"> <i class="las la-shopping-bag mr-1"></i>最新訂單 </div>
+            <div class="card-body tfs-13">
+              <table class="table table-sm table-borderless">
+                <tbody>
+                  <tr>
+                    <td width="25%">商店</td>
+                    <td><a href="../shop/store.html">商店名稱</a></td>
+                  </tr>
+                  <tr>
+                    <td>訂單狀態</td>
+                    <td><span class="text-red">訂單成立</span></td>
+                  </tr>
+                  <tr>
+                    <td>購買項目</td>
+                    <td>美式經典起司漢堡套餐、冰拿鐵</td>
+                  </tr>
+                  <tr>
+                    <td>加購項目</td>
+                    <td>餐前小麥麵包、水果蛋糕</td>
+                  </tr>
+                  <tr>
+                    <td>訂單日期</td>
+                    <td>2021-06-30 10:30AM</td>
+                  </tr>
+                  <tr>
+                    <td>訂單種類</td>
+                    <td><span class="badge bg-green">外送</span></td>
+                  </tr>
+                  <tr>
+                    <td>取貨時間</td>
+                    <td>2021-06-30 12:30PM</td>
+                  </tr>
+                  <tr>
+                    <td>取貨地點</td>
+                    <td>台北市oooo路一段oo號o樓</td>
+                  </tr>
+                  <tr>
+                    <td>總金額</td>
+                    <td><span class="text-red">$480</span></td>
+                  </tr>
+                  <tr>
+                    <td>備註</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><a href="purchase-detail.html">檢視訂單</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr>
+              <div class="text-center"><a href="purchase.html" class="btn btn-outline-secondary btn-sm ">我的訂購記錄</a></div>
+            </div>
+          </div>
+          <!-- end card --> 
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-header tfs-15"> <i class="las la-ticket-alt mr-1"></i>優惠券 </div>
+            <div class="card-body tfs-13">
+              <div class="media"> <img src="../assets/images/coupon-active.png" width="70" height="auto" alt=""/>
+                <div class="media-body pl-3">
+                  <p class="mb-1"><strong>優惠券名稱</strong></p>
+                  <p class="mb-0">編號<span class="ml-2 fw-700 text-info">IWF2021000161</span></p>
+                  <p class="mb-0">期限<span class="ml-2 fw-700 text-green">2021-11-15</span></p>
+                  <p class="mb-2">折抵<span class="ml-2 fw-700 text-red">100 元</span></p>
+                </div>
+              </div>
+              <!-- end media -->
+              <hr>
+              <div class="media"> <img src="../assets/images/coupon-active.png" width="70" height="auto" alt=""/>
+                <div class="media-body pl-3">
+                  <p class="mb-1"><strong>優惠券名稱</strong></p>
+                  <p class="mb-0">編號<span class="ml-2 fw-700 text-info">IWF2021000164</span></p>
+                  <p class="mb-0">期限<span class="ml-2 fw-700 text-green">2021-11-15</span></p>
+                  <p class="mb-2">折抵<span class="ml-2 fw-700 text-red">50 元</span></p>
+                </div>
+              </div>
+              <!-- end media -->
+              <hr>
+              <div class="media"> <img src="../assets/images/coupon-active.png" width="70" height="auto" alt=""/>
+                <div class="media-body pl-3">
+                  <p class="mb-1"><strong>優惠券名稱</strong></p>
+                  <p class="mb-0">編號<span class="ml-2 fw-700 text-info">IWF20210001664</span></p>
+                  <p class="mb-0">期限<span class="ml-2 fw-700 text-green">2021-11-15</span></p>
+                  <p class="mb-2">折抵<span class="ml-2 fw-700 text-red">60 元</span></p>
+                </div>
+              </div>
+              <!-- end media -->
+              <hr>
+              <div class="text-center"><a href="coupon-list.html" class="btn btn-outline-secondary btn-sm ">我的優惠券</a></div>
+            </div>
+          </div>
+          <!-- end card --> 
+        </div>
+      </div>
+      <!-- end row -->
+      
+      <div class="card h-100 shadow-sm mb-4">
+        <div class="card-header tfs-16"> <i class="las la-bell mr-1"></i>推播訊息 </div>
+        <div class="card-body tfs-13">
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="text-center"><a href="#"><img src="../assets/images/demo/p-15.jpg" class="img-fluid" alt=""/></a></div>
+              <hr class="d-sm-none d-block">
+            </div>
+            <div class="col-lg-10">
+              <p class="mb-1"><i class="las la-clock mr-1"></i>2021-07-30 13:05PM</p>
+              <p class="mb-2"><i class="las la-store mr-1"></i>來自<strong class="ml-1">商店名稱</strong></p>
+              <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mauris arcu, commodo ut libero id, ullamcorper luctus urna. Phasellus nulla lectus, iaculis quis tristique at, laoreet a augue. Curabitur tincidunt venenatis velit, </p>
+            </div>
+          </div>
+          <!-- end row -->
+          <hr>
+          <div class="row mb-3">
+            <div class="col-lg-2">
+              <div class="text-center"><a href="#"><img src="../assets/images/demo/p-61.jpg" class="img-fluid" alt=""/></a></div>
+              <hr class="d-sm-none d-block">
+            </div>
+            <div class="col-lg-10">
+              <p class="mb-1"><i class="las la-clock mr-1"></i>2021-07-22 16:24PM</p>
+              <p class="mb-2"><i class="las la-store mr-1"></i>來自<strong class="ml-1">商店名稱</strong></p>
+              <p class="mb-1">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris egestas tempus erat sit amet ullamcorper. Fusce facilisis odio eu libero convallis consectetur. </p>
+              <p>Nam eget nunc non justo facilisis tincidunt ut vitae dui. Sed ullamcorper, sapien in porta pretium, sem magna condimentum enim, ac lacinia diam sem vitae orci. Aliquam feugiat nisl ut neque auctor volutpat.</p>
+            </div>
+          </div>
+          <!-- end row -->
+          <hr>
+          <div class="row mb-3">
+            <div class="col-lg-2">
+              <div class="text-center"><a href="#"><img src="../assets/images/demo/p-50.jpg" class="img-fluid" alt=""/></a></div>
+              <hr class="d-sm-none d-block">
+            </div>
+            <div class="col-lg-10">
+              <p class="mb-1"><i class="las la-clock mr-1"></i>2021-06-30 13:00PM</p>
+              <p class="mb-2"><i class="las la-store mr-1"></i>來自<strong class="ml-1">商店名稱</strong></p>
+              <p class="mb-1">Pellentesque ac scelerisque risus, a vehicula sapien. Maecenas lacinia tincidunt magna, nec imperdiet siaculis.</p>
+            </div>
+          </div>
+          <!-- end row -->
+          <hr>
+          <div class="text-center"><a href="notification.html" class="btn btn-outline-secondary btn-sm ">更多</a></div>
+        </div>
+      </div>
+      <!-- end card -->
+      <div class="card shadow-sm mb-4">
+        <div class="card-header tfs-16"> <i class="las la-kiss-wink-heart mr-1"></i>我的收藏 </div>
+        <div class="card-body tfs-13">
+          <p class="tfs-15 text-center"><i class="las la-store-alt mr-1"></i>商家</p>
+          <div class="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-10.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store.html">Patio46 沛緹歐美式餐廳</a> </h6>
+                  <div class="mb-2"> <a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">西式與南洋料理</span></a><a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">點心飲品</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-42.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store.html">pazzo 流行服飾</a> </h6>
+                  <div class="mb-2"> <a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">衣服飾品</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-51.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store.html">萬安藥局</a> </h6>
+                  <div class="mb-2"> <a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">藥房</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-59.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store.html">哈利波特桌游店</a> </h6>
+                  <div class="mb-2"> <a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">桌游</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-24.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store.html">草莓公主糕點專賣</a> </h6>
+                  <div class="mb-2"> <a href="../shop/category-2.html"><span class="badge bg-green text-white p-1 mr-1">點心飲品</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+          </div>
+          <!-- end row-cols -->
+          <hr>
+          <p class="tfs-15 text-center"><i class="las la-cookie mr-1"></i>商品</p>
+          <div class="row row-cols-xl-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store-merchandise.html"><img src="../assets/images/demo/p-58.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store-merchandise.html">奇幻大富翁</a> </h6>
+                  <div class="mb-2"> <a href="../shop/store-merchandise-category.html"><span class="badge bg-green text-white p-1 mr-1">進口桌游</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-45.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store-merchandise.html">白幻高跟鞋</a> </h6>
+                  <div class="mb-2"> <a href="../shop/store-merchandise-category.html"><span class="badge bg-green text-white p-1 mr-1">女性鞋包</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-56.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store-merchandise.html">萬用band aid</a> </h6>
+                  <div class="mb-2"> <a href="../shop/store-merchandise-category.html"><span class="badge bg-green text-white p-1 mr-1">OK 繃</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-26.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store-merchandise.html">巧克力</a> </h6>
+                  <div class="mb-2"> <a href="../shop/store-merchandise-category.html"><span class="badge bg-green text-white p-1 mr-1">比利時進口巧克力</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+            <div class="col mb-3">
+              <div class="card h-100"> <a href="../shop/store.html"><img src="../assets/images/demo/p-14.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <h6 class="tfs-14 mb-1"> <a href="../shop/store-merchandise.html">精品美式咖啡</a> </h6>
+                  <div class="mb-2"> <a href="../shop/store-merchandise-category.html"><span class="badge bg-green text-white p-1 mr-1">手沖咖啡系列</span></a> </div>
+                  <div class="tfs-13"> 收藏日期：2021/06/30 </div>
+                  <div class="text-right tfs-18"> <a href="#" class="text-red"><i class="las la-heart"></i></a> </div>
+                </div>
+              </div>
+              <!-- end card --> 
+            </div>
+          </div>
+          <!-- end row-cols -->
+          <hr>
+          <div class="text-center"><a href="favorite.html" class="btn btn-outline-secondary btn-sm ">更多</a></div>
+        </div>
+      </div>
+      <!-- end card --> 
+      
+    </div>
+    <!-- end container --> 
+    
+  </div>
+  <!-- end page-content-wrapper --> 
+</div>
+<!-- end wrapper --> 
+
+<!-- go top --> 
+<a href="#" class="go-top"><i class="la la-arrow-up"></i></a> 
+<!-- end go top --> 
+
+<!-- offcanvas sidebar user -->
+<div class="off-sidebar user from-right">
+  <div class="off-sidebar-container">
+    <div class="off-sidebar-content tfs-13 offcanvas-scroll auto-scroll">
+      <a href="#off-canvas" class="off-sidebar-close"></a>
+      <div class="sidebar-heading text-center">
+        <i class="las la-user-circle mr-2"></i>User Name
+      </div>
+      <div> <a href="index.html"><i class="las la-user-circle mr-2"></i>帳戶總覽</a> </div>
+      <hr>
+      <div> <a href="account.html"><i class="las la-id-card mr-2"></i>會員資訊</a> </div>
+      <hr>
+      <div> <a href="purchase.html"><i class="las la-shopping-bag mr-2"></i>訂購記錄</a> </div>
+      <hr>
+      <div> <a href="coupon-list.html"><i class="las la-ticket-alt mr-2"></i>優惠券</a> </div>
+      <hr>
+      <div> <a href="receiver.html"><i class="las la-box mr-2"></i>常用取貨人</a> </div>
+      <hr>
+      <div> <a href="favorite.html"><i class="las la-kiss-wink-heart mr-2"></i>我的收藏</a> </div>
+      <hr>
+      <div> <a href="notification.html"><i class="las la-bell mr-2"></i>推播訊息</a> </div>
+      <hr>
+      <div> <a href="change-password.html"><i class="las la-lock mr-2"></i>更改密碼</a> </div>
+      <hr>
+      <div> <a href="../index.html"><i class="las la-sign-out-alt mr-2"></i>登出</a> </div>
+      <hr>
+      <div> <a href="../admin/index.html" class="btn btn-danger btn-block mb-2 shadow"><i class="las la-cog mr-2"></i>系統管理</a> </div>
+      <div> <a href="../shop-admin/index.html" class="btn btn-danger btn-block mb-2 shadow"><i class="las la-store mr-2"></i>商家管理</a> </div>
+    </div>
+  </div>
+</div>
+<!-- end offcanvas sidebar user -->
+    
+<!-- offcanvas sidebar search -->
+<div class="off-sidebar search from-right">
+  <div class="off-sidebar-container">
+    <div class="off-sidebar-content offcanvas-scroll auto-scroll">
+      <a href="#off-canvas" class="off-sidebar-close"></a>
+      <div class="sidebar-heading text-center">
+        <i class="las la-search"></i>
+      </div>
+      <div class="form-group mb-1">
+        <select class="form-control form-control-sm">
+          <option>商品</option>
+          <option>商店</option>
+          <option>文章</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <input type="search" class="form-control form-control-sm" placeholder="關鍵字">
+      </div>
+      <a href="../search-results.html" class="btn btn-info btn-square btn-block btn-sm shadow">搜尋</a>
+      <hr>
+      <p class="mb-2 tfs-13">熱門搜尋：</p>
+      <div class="tags">
+        <ul class="nav">
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">珍珠奶茶 </a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">牛排</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">牛肉番茄蛋炒飯</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">多多綠</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">超香鹽酥雞</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">綠草原餐廳</a> </li>
+          <li class="nav-item m-1"> <a href="../search-results.html" class="btn btn-outline-dark btn-sm btn-block">美式速食</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end offcanvas sidebar search --> 
+
+<!-- Modal 1 -->
+<div class="modal fade" id="Modal-1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+      <div class="modal-body p-4">
+        <p class="text-orange mb-2"><i class="las la-grin-stars la-3x"></i></p>
+        <p class="tfs-20 mb-2">恭喜您完成會員資料的建置！</p>
+        <p class="tfs-15 mb-4">優惠券已發送給您，請至<a href="coupon-list.html">"優惠券"</a>查看</p>
+        <p class="m-0">
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">確認</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal-1 --> 
+
+<!-- Modal 2 -->
+<div class="modal fade" id="Modal-2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+      <div class="modal-body p-4">
+        <p class="text-orange mb-2"><i class="las la-smile la-3x"></i></p>
+        <p class="tfs-20 mb-2">您的會員資訊已儲存！</p>
+        <p class="tfs-15 mb-4">建議您填寫所有欄位，即可獲得優惠券！</p>
+        <p class="m-0">
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">確認</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal-2 --> 
+
+<!-- Modal 3 -->
+<div class="modal fade" id="Modal-3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+      <div class="modal-body p-4">
+        <p class="text-orange mb-2"><i class="las la-check la-3x"></i></p>
+        <p class="tfs-20 mb-4">您的會員資訊已儲存！</p>
+        <p class="m-0">
+          <button type="button" class="btn btn-outline-info" data-dismiss="modal">確認</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal-3 --> 
+
+<!-- javascript --> 
+<script src="../assets/js/jquery-3.5.1.min.js"></script> 
+<script src="../assets/js/bootstrap.bundle.min.js"></script> 
+<script src="../assets/vendors/nicescroll/nicescroll.min.js"></script> 
+<script src="../assets/vendors/summernote/summernote.min.js"></script> 
+<script src="../assets/vendors/summernote/lang/summernote-zh-TW.min.js"></script> 
+<script src="../assets/vendors/tempusdominus/moment.min.js"></script> 
+<script src="../assets/vendors/tempusdominus/tempusdominus.min.js"></script> 
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
