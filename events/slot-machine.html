@@ -278,18 +278,23 @@
 </div>
 <!-- end offcanvas sidebar search --> 
 
-<!-- Modal prize -->
+<!-- Modal prize 有中獎領取優惠卷-->
 <div class="modal fade" id="Modal-prize" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content text-center bg-gradient-08">
       <div class="modal-body text-white p-4">
         <h4 class="mb-3 text-shadow">恭喜您中獎！</h4>
-        <div class="border rounded p-2 bg-white shadow text-red mb-3">
-          獲得<strong class="mx-1">100元</strong>優惠券一張
+        <div class="border rounded p-2 bg-white text-primary shadow mb-3">
+          <p>
+            獎項名稱: (拉霸機-xx元優惠券) <br>
+            抽獎時間: 2022-03-01 17:00 <br>
+            領獎狀態: 已領取優惠券
+          </p>
+          
         </div>
         <p class="tfs-13 mb-4">可於會員中心"優惠券"查看</p>
         <div class="m-0">
-          <button type="button" class="btn btn-outline-dark shadow" data-dismiss="modal">知道了</button>
+          <button type="button" class="btn btn-outline-dark shadow">查看中獎記錄</button>
         </div>
       </div>
     </div>
@@ -297,7 +302,47 @@
 </div>
 <!-- end modal-prize --> 
 
-<!-- Modal prize 0 -->
+<!-- Modal prize 有中獎但要填寫資料領取實體獎項 -->
+<div class="modal fade" id="Modal-prize-info" tabindex="-1" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content bg-gradient-08">
+      <div class="modal-body text-center text-white p-4">
+        <h4 class="mb-3 text-shadow">恭喜您中獎！</h4>
+        <div class="border rounded p-2 bg-white text-primary shadow mb-3">
+          <p>
+            獎項名稱: (拉霸機-獎項名稱) <br>
+            抽獎時間: 2022-03-01 17:00 <br>
+            領獎狀態: 尚未領取
+          </p>
+          <hr>
+          <div class="text-left">
+            <div class="form-group">
+              <label for="">姓名*：</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">聯絡電話*：</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="">聯絡地址*：</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          
+          
+        </div>
+        <div class="m-0 flex">
+          <button type="button" class="btn btn-light shadow mr-3" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-dark shadow">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end modal-prize --> 
+
+<!-- Modal prize 沒有中奬 -->
 <div class="modal fade" id="Modal-prize-0" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content text-center">
