@@ -46,19 +46,62 @@
   </div>
   <!-- end nav-right -->
   
-  <div class="nav-main collapse navbar-collapse order-3 order-xl-2" id="navbarContent">
+  <div class="nav-main collapse navbar-collapse order-3 order-md-2" id="navbarContent">
     <ul class="navbar-nav d-lg-flex flex-lg-row text-left ml-1 mr-auto">
-      <li class="nav-item mr-3"> <a class="nav-link" href="../index.html"><i class="las la-home mr-1"></i>萬芳智慧生活圈</a> </li>
-      <li class="nav-item active mr-3"> <a class="nav-link" href="index.html"><i class="las la-store-alt mr-1"></i>好商圈</a> </li>
-      <li class="nav-item mr-3"> <a class="nav-link" href="../neighborhood/index.html"><i class="las la-user-friends mr-1"></i>好社區</a> </li>
-      <li class="nav-item mr-3"> <a class="nav-link" href="../health/index.html"><i class="las la-heartbeat mr-1"></i>好健康</a> </li>
-      <li class="nav-item mr-3"> <a class="nav-link" href="../security/index.html"><i class="las la-bullhorn mr-1"></i>好安全</a> </li>
-      <li class="nav-item mr-3"> <a class="nav-link" href="../education/index.html"><i class="las la-book-open mr-1"></i>好上進</a> </li>
-      <li class="nav-item mr-3"> <a class="nav-link" href="../wunshan/index.html"><i class="las la-gift mr-1"></i>文山好禮</a> </li>
+      <li class="nav-item active mr-3"> <a class="nav-link" href="index.html"><i class="las la-home mr-1"></i>萬芳智慧生活圈</a> </li>
+      <li class="nav-item dropdown mr-3">
+        <a class="nav-link dropdown-toggle" href="javascript:;" id="foodDropdown" role="button" data-toggle="dropdown" aria-haspopup="fasle" class="dropdown-toggle">
+          <i class="las la-cheese mr-1"></i>好美味
+        </a>
+        
+        <div class="dropdown-menu" aria-labelledby="foodDropdown">
+          <a class="dropdown-item" href="/shop/index.html">好美味首頁</a>
+          <a class="dropdown-item" href="javascript:;">協會專區</a>
+          <a class="dropdown-item" href="javascript:;">中日式料理</a>
+          <a class="dropdown-item" href="javascript:;">西式及南洋料理</a>
+          <a class="dropdown-item" href="javascript:;">點心宵夜及飲品</a>
+        </div>
+      </li>
+      <li class="nav-item mr-3"> <a class="nav-link" href="shop/index.html"><i class="las la-store-alt mr-1"></i>好商圈</a> </li>
+      <li class="nav-item dropdown mr-3">
+        <a class="nav-link dropdown-toggle" href="javascript:;" id="neighborhoodDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="las la-user-friends mr-1"></i>好社區</a>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="neighborhoodDropdown">
+          <a class="dropdown-item" href="/neighborhood/activity.html">里民通報</a>
+          <a class="dropdown-item" href="/neighborhood/rent.html">租屋資訊</a>
+          <a class="dropdown-item" href="/neighborhood/traffic.html">交通資訊</a>
+          <a class="dropdown-item" href="javascript:;">好上進</a>
+          <a class="dropdown-item" href="javascript:;">好安全</a>
+          <a class="dropdown-item" href="javascript:;">志工組織</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown mr-3">
+        <a class="nav-link dropdown-toggle" href="health/index.html" id="healthDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="las la-heartbeat mr-1"></i>好健康</a> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="healthDropdown">
+          <a class="dropdown-item" href="health/wanfang-hospital.html">萬芳醫院專區</a>
+          <a class="dropdown-item" href="javascript:;">文山運動中心</a>
+          <a class="dropdown-item" href="health/health.html">健康園地</a>
+          <a class="dropdown-item" href="health/long-term-care.html">社區長照</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown mr-3">
+        <a class="nav-link dropdown-toggle" href="user/index.html" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="las la-user-circle mr-1"></i>會員專區</a> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="userDropdown">
+          <a class="dropdown-item" href="user/index.html">帳戶總覧</a>
+          <a class="dropdown-item" href="user/account.html">會員資訊</a>
+          <a class="dropdown-item" href="user/coupon-list.html">優惠卷查詢</a>
+          <a class="dropdown-item" href="user/notification.html">推播訊息</a>
+          <a class="dropdown-item" href="user/purchase.html">好美味訂購紀錄</a>
+        </div>
+      </li>
     </ul>
     <!-- end nav-main --> 
   </div>
-  <!-- end navbar-collapse --> 
 </nav>
 <div id="wrapper" class="pl-0"> 
   
