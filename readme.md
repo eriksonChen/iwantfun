@@ -73,3 +73,9 @@
 - html: [user/purchase-detail.html](./user/purchase-detail.html)
 - 新增 [star.css](./assets/css/star.css)
 - 說明：[figma](https://www.figma.com/file/Tliz0lio6MXsr2kJH8U8cT/%E8%90%AC%E8%8A%B3%E7%A4%BA%E6%84%8F%E5%9C%96?node-id=97%3A2949)
+
+### 拉霸機後台
+- 拉霸機活動清單 html: [admin/event-slot-machine.html](./admin/event-slot-machine.html)
+- 拉霸機得獎名單 html: [admin/slot-machine-awards.html](./admin/slot-machine-awards.html)
+- 新增/編輯活動 html: [admin/slot-machine-add.html](./admin/slot-machine-add.html)
+- 說明：[figma](https://www.figma.com/file/Tliz0lio6MXsr2kJH8U8cT/%E8%90%AC%E8%8A%B3%E7%A4%BA%E6%84%8F%E5%9C%96?node-id=129%3A5435)

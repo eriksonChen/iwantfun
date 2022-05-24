@@ -142,35 +142,104 @@
   
   <!-- Page Content -->
   <div id="page-content-wrapper">
-    <div class="container-fluid"> <a href="#menu-toggle" class="btn btn-outline-dark btn-sm mb-3" id="menu-toggle">系統選單</a>
-      <h5 class="page-title text-md-left text-center mb-2 ml-1">網站管理中心</h5>
-<div class="card card-body tfs-13 mb-4 shadow">
-        <div class="row">  
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="banner.html" class="btn btn-outline-dark btn-block mb-3">Banner</a>
+    <div class="container-fluid">
+      <a href="#menu-toggle" class="btn btn-outline-dark btn-sm mb-3" id="menu-toggle">系統選單</a>
+      <h5 class="page-title text-md-left text-center mb-2 ml-1">拉霸機</h5>
+      <div class="card card-body tfs-13 mb-4 shadow">
+        <p class="m-0"><a href="./slot-machine-add.html" class="btn btn-outline-info shadow"><i class="las la-plus"></i>新增活動</a></p>
+        <hr>   
+        <div class="d-flex justify-content-between">
+          <div class="d-flex">
+            <div class="form-group form-inline mr-4">
+              <label>開始日期：</label>
+              <input type="date" class="form-control form-control-sm" placeholder="開始日期">
+            </div>
+            <div class="form-group form-inline">
+              <label>結束日期：</label>
+              <input type="date" class="form-control form-control-sm" placeholder="結束日期">
+            </div>
+          </div> 
+          <div class="form-group form-inline">
+            <input type="text" class="form-control form-control-sm" placeholder="活動名稱"><a href="#" class="btn btn-outline-info btn-sm ml-2 tfs-12">搜尋</a>
+          </div> 
+        </div>   
+         
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">活動名稱</th>
+                <th scope="col">適用期間</th>
+                <th scope="col">狀態</th>
+                <th scope="col">啟用狀態</th>
+                <th scope="col">編輯</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>萬芳生活圈週年慶</td>
+                <td>2022-10-01~2022-12-30</td>
+                <td>上架中</td>
+                <td>
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                    <label class="custom-control-label" for="customSwitch1"></label>
+                  </div>
+                </td>
+                
+                <td>
+                  <a href="slot-machine-add.html" class="btn btn-outline-info btn-sm mr-2">編輯</a>
+                  <a href="slot-machine-awards.html" class="btn btn-outline-dark btn-sm">得獎名單</a>
+                </td>
+              </tr>
+              <tr>
+                <td>萬芳生活圈週年慶</td>
+                <td>2022-10-01~2022-12-30</td>
+                <td>下架中</td>
+                <td>
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                    <label class="custom-control-label" for="customSwitch2"></label>
+                  </div>
+                </td>
+                
+                <td>
+                  <a href="slot-machine-add.html" class="btn btn-outline-info btn-sm mr-2">編輯</a>
+                  <a href="slot-machine-awards.html" class="btn btn-outline-dark btn-sm">得獎名單</a>
+                </td>
+              </tr>
+              <tr>
+                <td>萬芳生活圈週年慶</td>
+                <td>2022-10-01~2022-12-30</td>
+                <td>草稿中</td>
+                <td></td>
+                
+                <td>
+                  <a href="slot-machine-add.html" class="btn btn-outline-info btn-sm mr-2">編輯</a>
+                  <a href="slot-machine-awards.html" class="btn btn-outline-dark btn-sm">得獎名單</a>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
         </div>
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="news-add.html" class="btn btn-outline-dark btn-block mb-3">新增消息</a>
-        </div>
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="post-add.html" class="btn btn-outline-dark btn-block mb-3">新增文章</a>
-        </div>
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="video-add.html" class="btn btn-outline-dark btn-block mb-3">新增影片</a>
-        </div>
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="vil-activity.html" class="btn btn-outline-dark btn-block mb-3">興得里</a>
-        </div>
-        <div class="col-xl-2 col-sm-3 col-6">
-          <a href="vil-activity.html" class="btn btn-outline-dark btn-block mb-3">興光里</a>
-        </div>
-          </div>
-          <!-- end row -->
+        <!-- end table-responsive -->
       </div>
-      <!-- end card --> 
+      <!-- end card -->
+      
+      <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center tfs-13 mb-4">
+          <li class="page-item shadow disabled"> <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="las la-angle-left"></i></a> </li>
+          <li class="page-item shadow active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item shadow"><a class="page-link" href="#">2</a></li>
+          <li class="page-item shadow"><a class="page-link" href="#">3</a></li>
+          <li class="page-item shadow"> <a class="page-link" href="#"><i class="las la-angle-right"></i></a> </li>
+        </ul>
+      </nav>
+      <!-- end pagination -->
       
     </div>
-    <!-- end container --> 
+    <!-- end container -->
     
   </div>
   <!-- /#page-content-wrapper --> 
