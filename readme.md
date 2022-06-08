@@ -85,3 +85,7 @@
 - 推薦碼得獎名單 html: [admin/invitation-code-awards.html](./admin/invitation-code-awards.html)
 - 新增/編輯活動 html: [admin/invitation-code-add.html](./admin/invitation-code-add.html)
 - 說明：[figma](https://www.figma.com/file/Tliz0lio6MXsr2kJH8U8cT/%E8%90%AC%E8%8A%B3%E7%A4%BA%E6%84%8F%E5%9C%96?node-id=176%3A7143)
+
+### 優惠券-其他獎項(F6.4.1)
+- html: [user/coupon-list.html](./user/coupon-list.html)
+- 說明：[figma](https://www.figma.com/file/Tliz0lio6MXsr2kJH8U8cT/%E8%90%AC%E8%8A%B3%E7%A4%BA%E6%84%8F%E5%9C%96?node-id=128%3A5265)
