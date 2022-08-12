@@ -1948,3 +1948,28 @@ img {
   top: 5px;
   right: 5px;
 }
+
+
+@media (max-width: 414px){
+  .randomizeMachine img {
+    width: 55px !important;
+    height: 55px !important;
+  }
+}
+@media (max-width: 320px){
+  .randomizeMachine img {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+
+/* 三層下拉選單 */
+.navbar-nav .nav-item .dropdown-menu .floor-2{
+  padding-left: 2rem;
+  font-size: 15px;
+}
+.navbar-nav .nav-item .dropdown-menu .floor-3{
+  padding-left: 2.5rem;
+  font-size: 15px;
+}
