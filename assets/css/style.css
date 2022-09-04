@@ -1965,11 +1965,31 @@ img {
 
 
 /* 三層下拉選單 */
-.navbar-nav .nav-item .dropdown-menu .floor-2{
+/* .navbar-nav .nav-item .dropdown-menu .floor-2{
   padding-left: 2rem;
   font-size: 15px;
 }
 .navbar-nav .nav-item .dropdown-menu .floor-3{
   padding-left: 2.5rem;
   font-size: 15px;
+} */
+
+.dropdown-menu{
+  min-width: inherit;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.navbar-nav .dropdown-submenu a.suba {
+  padding: 0;
 }
